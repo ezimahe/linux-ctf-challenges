@@ -1,6 +1,6 @@
 # Purpose: Locate a file with "secret" in its name using grep.
 
-# Commands Used:
+Commands Used:
 
 ls /home/ctf_user | grep "secret"
 
