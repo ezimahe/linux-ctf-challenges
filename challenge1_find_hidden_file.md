@@ -2,7 +2,7 @@
 
 Commands Used:
 
-ls -a -l
+`ls -a -l`
 
 find /path/to/directory -type f -name ".*"
 
