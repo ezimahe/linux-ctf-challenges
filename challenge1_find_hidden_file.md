@@ -1,6 +1,7 @@
 # Purpose: Finding a hidden file in a directory.
 
 Commands Used:
+
 ls -a -l
 
 find /path/to/directory -type f -name ".*"
