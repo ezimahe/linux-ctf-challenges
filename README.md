@@ -1,4 +1,4 @@
-# Linux CTF Challenges
+# Linux CTF Challenges (Fully Documented)
 Working through Linux Command Line Capture The Flag (CTF) lab on Microsoft Azure
 
 # Challenge 1: The Hidden File
