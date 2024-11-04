@@ -38,4 +38,4 @@ nc      10403 ctf_user    3u  IPv4 131014      0t0  TCP *:http-alt (LISTEN)`
 
 `curl http://localhost:8080` command outputs;
 
-CTF{port_explorer}
+`CTF{port_explorer}`
