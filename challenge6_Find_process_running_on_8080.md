@@ -20,20 +20,22 @@ In command 2 & 3 `-tuln` displays TCP (`-t`) and UDP (`-u`) listening (`-l`) por
 
 
 # Result:
-`ss` command
+`ss` command outputs;
 `tcp   LISTEN 0      1            0.0.0.0:8080      0.0.0.0:* `
 
 
-`lsof` command
-COMMAND   PID     USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
-nc      10403 ctf_user    3u  IPv4 131014      0t0  TCP *:http-alt (LISTEN)
+`lsof` command outputs;
+`COMMAND   PID     USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+nc      10403 ctf_user    3u  IPv4 131014      0t0  TCP *:http-alt (LISTEN)`
 
-`nc localhost 8080` command
+
+`nc localhost 8080` command outputs;
 
 `HTTP/1.1 200 OK`
 
 `CTF{port_explorer}`
 
-`curl http://localhost:8080`
+
+`curl http://localhost:8080` command outputs;
 
 CTF{port_explorer}
