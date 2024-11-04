@@ -15,8 +15,11 @@ Other:
 
 # Explanation:
 `find . -type f`: This finds all files in the current directory and its subdirectories.
+
 `-exec du -h {}`: This executes the du command on each file found, which returns the disk usage in human-readable format.
+
 `sort -rh`: This sorts the output in reverse order based on size.
+
 `head -n 1`: This outputs only the largest file.
 
 # Result:
